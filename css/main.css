@@ -1,0 +1,136 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;/*letra toda la pagina igual*/
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+img {
+  vertical-align: middle;
+  
+}
+
+.container {
+  text-align: center;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+/*header*/
+a {
+  color: #373B47;
+  text-decoration: none;
+  padding-left: 60px;
+}
+
+a:hover{
+  color: #E95853;
+}
+.cabecera{
+  margin-left: 100px;
+}
+.triangulo{
+  width: 5%;
+  height: auto;
+  margin-left: 636px;
+}
+.container{
+  background-image: url(../assets/images/bg-home.jpg);
+  width: 100%;
+  height:auto;
+}
+.titulo_1{
+  font-size: 22px;
+  padding-top: 70px;
+}
+.titulo_lover{
+  font-size: 44px;
+  padding-top: 10px;
+  margin-bottom: -22px;
+}    
+.parrafo_1{
+  padding-bottom:78px;
+}
+.boton{
+    background-color: #2ecc71;
+    padding: 14px 12px;
+    color: #fff;
+    margin-top:30px;
+}
+/*seccion 2*/
+.services{
+  background: #f17c72;
+  color:#fff;
+  text-align: center;
+
+}
+.titulo_2{
+  padding-top: 20px;
+  text-transform: uppercase;
+  padding-top: 60px;
+}
+.subtitulo{
+  text-align: center;
+}
+.imagen_1{
+  width: 80%;
+  margin-top: 80px
+}
+.img-services{
+  display: inline-block;
+  width: 22%;
+  margin-left: 30px;
+}
+.tit-services{
+  margin-bottom: 2px;
+}
+h6{
+  margin-top: 2px;
+}
